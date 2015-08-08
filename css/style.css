@@ -1,0 +1,151 @@
+html, body {
+	height: 100%;
+	width: 1920 px;
+	overflow: none;
+}
+	body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		position: relative;
+	}	
+	header {
+		position: relative;
+		background-color: #212121;
+		width: 100%;
+		height: 210px;
+	}
+	#logo {
+		position: absolute;
+		margin-bottom: 0;
+		left: 460px;
+		bottom: 30px;
+	}
+	#navigation {
+		width: 670px;
+		height: 190px;
+		bottom: 20px;
+		position: absolute;
+		left: 800;
+	}
+	#navigation div {
+		display: inline-block;
+		width: 220px;
+		height: 190px;
+		text-align: center;
+	}
+	#navigation div a {
+		display: block;
+		text-decoration: none;
+		color: #e6ebe7;
+		margin-top: 160px;
+		font-size: 18pt;
+	}
+	#color {
+		background-color: #f3df66;
+	}
+	#photo {
+		position: absolute;
+		top: 240px;
+		left: 480px;
+	}
+	#info {
+		position: absolute;
+		left: 800px;
+		top: 210px;
+		display: block;
+		background-color: #3c673c;
+		width: 590px;
+		height: 360px;
+		overflow: none;
+		padding-left: 30px;
+		padding-bottom: 30px;
+		padding-right: 40px;
+		padding-top: 30px;
+	}
+	#info p{
+		line-height: 2em;
+	}
+	#info h3 {
+		padding: 0;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+	#blok_1, #blok_2, #blok_3 {
+		position: absolute;
+		display: block;
+		width: 330px;
+		height: 460px;
+		top: 630px;
+	}
+	#blok_1 {
+		left: 460px;
+	}
+		#blok_2 {
+		left: 790px;
+	}
+	#blok_3 {
+		left: 1120px;
+	}
+	h3.blocks {
+		margin-bottom: 10px;
+		margin-top: 70px;
+		margin-right: 20px;
+		margin-left: 20px; 
+	} 
+	.border {
+		border-bottom: 3px solid #bbbbbb;
+	}
+	p.blok_text {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.more {
+		display: block;
+		width: 90px;
+		height: 50px;
+		background-color: #2f2f2f;
+		vertical-align: center;
+		text-align: center;
+		line-height: 50px;
+		position: absolute;
+		left: 240px;
+		top: 360px;
+
+	}
+		.more a {
+		color: #e6ebe7;
+		text-decoration: none;
+		vertical-align: center;
+	}
+	#contacts {
+		background-color: #f3df66;
+		height: 190px;
+		margin-top: 880px;
+	}
+	#contacts div {
+		width: 290px;
+		margin: auto;
+		padding-top: 10px;
+	}
+	#contacts div p {
+		text-align: center;
+		margin-top: 10px;
+		font-size: 10pt;
+		line-height: 0.8em;
+	}
+	footer {
+		margin-left: 420px;
+		height: 40px;
+		position: relative;
+		bottom: 0;
+	}
+	footer div {
+		display: inline-block;
+		margin-left: 40px;
+	}
+	#four {
+		position: absolute;
+		bottom: 0;
+		left: 770px;
+		}
