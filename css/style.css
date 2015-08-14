@@ -43,7 +43,6 @@ html, body {
 						height: 90%;
 						width: 22%;
 						float: left;
-
 					}
 					.color {
 					background-color: #f3df66;
@@ -57,12 +56,7 @@ html, body {
 							text-decoration: none;
 							font-size: 16pt;
 							color: #e6ebe7;
-
 							padding-top: 60%;
-							text-align: center;
-						
-							
-
 						}
 		.content{
 			width: 52.08%;
@@ -85,7 +79,6 @@ html, body {
 					display: block;
 					max-width: 290px;
 					padding-top: 2.26%;
-
 				}
 			.info {
 				display: block;
@@ -98,7 +91,6 @@ html, body {
 				.info p{
 				padding-left: 25px;
 				padding-right: 20px;
-				
 				}
 				.info h3 {
 					padding-left: 25px;
@@ -106,7 +98,6 @@ html, body {
 					padding-top: 2.26%;
 				}
 		.block_section {
-			
 			height: 34.34%;
 			width: 52.08%;
 			margin: auto;
@@ -150,23 +141,17 @@ html, body {
 					margin-top: 14.2%;
 				}
 					.more a {
-						
 						color: #e6ebe7;
 						text-decoration: none;
 					}
 		.contacts {
-			
-			
 			background-color: #f3df66;
-			
-			
 		}
 			.contacts div {
 				padding-top: 5px;
 				padding-bottom: 5px;
 				width: 290px;
 				margin: auto;
-
 			}
 				.contacts div p {
 					font-family: Times New Roman;
@@ -174,31 +159,24 @@ html, body {
 					margin-top: 10px;
 					font-size: 10pt;
 					line-height: 0.85em;
-
 				}
 		footer {			
 			height: 3.01%;
-			
 		}
 			.copyright {
 				display: block;
 				width: 52.08%;
 				margin: auto;
-				
 			}
 			p.copyright_text {
 				font-size: 12pt;
-				
 			}
-
 			.copyright div {
-				
 				display: inline-block;
 				margin-right: 7.5%;
 			}
 			.last {
 				margin-right: 0;
-				
 			}
 			
 @media screen and (min-width: 1920px) {
@@ -237,7 +215,6 @@ html, body {
 		font-size: 10pt;
 	}
 	.contacts div p {
-	
 		font-size: 7pt;
 		line-height: 0.6em;
 	}
@@ -255,7 +232,6 @@ html, body {
     	padding-top: 10px;
     }
     .info p {
-
         font-size: 9pt;
         line-height: 130%;
     }
