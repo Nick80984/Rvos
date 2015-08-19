@@ -1,7 +1,7 @@
 html, body {
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
 	height: 100%;
-	max-width: 1920 px;
+	width: 100%;
 	overflow: none;
 }
 	body {
@@ -17,92 +17,106 @@ html, body {
 		box-sizing: border-box;
 	}
 		header {
-			width: 100%;
-			height: 15.84%;
 			background-color: #212121;
-	}
+			height: 210px;
+			width: 100%;
+		}
 			.header_block {
-				display: block;
-				width: 52.08%;
-				margin: auto;
-			}
+					position: absolute;
+					display: block;
+					width: 52.08%;
+					margin-left: 24.11%;
+				}
 				.logo {
-					background-color: #212121;
 					width: 33%;
 					float: left;
-					max-height: 80%;
-				}
+					
+				}	
 					.logo img {
-						width: 80%;
-						min-width: 100%;
-						padding-right: 45px;
-						padding-bottom: 5%;
-						padding-top: 30px;
-					}
-					nav div {
-						height: 90%;
-						width: 22%;
-						float: left;
-					}
-					.color {
-					background-color: #f3df66;
-					margin-left: 5px;
+						padding-top: 53px;
+					}	
+				nav {
+					width: 66.52%;
+					height: 192px;
+					bottom: 20px;
+					margin-left: 345px;
 				}
-					#color_black {
-						color: #000000;
+					nav div {
+						float: left;
+						width: 33.33%;
+						height: 190px;
+						font-size: 0;
+					}
+					div.color {
+						background-color: #f3df66;
 					}
 						a.menu {
 							display: block;
 							text-decoration: none;
-							font-size: 16pt;
 							color: #e6ebe7;
-							padding-top: 60%;
+							margin-top: 158px;
+							font-size: 18pt;
+							text-align: center;
+							text-transform: uppercase;
+							letter-spacing: -0.8px;
 						}
-		.content{
-			width: 52.08%;
-			max-height: 420px;
-			margin: auto;
-			height: 31.69%;
-		}		
+					#color_black {
+							color: #000000;
+						}
+			.content{
+				width: 52.08%;
+				height: 420px;
+				margin-left: 24.11%;
+			}		
 			.photo {
-				display: block;
-				width: 33.5%; 
-				padding-left: 20px;
-				padding-right: 20px;
+				height: 420px;
+				width: 33%;
 				float: left;
-				background-color: #ffffff;
+
 			}
-				.photo img{
-					width: 85%;
-					height: 100%;
-					margin: auto;
+				.photo img {
 					display: block;
-					max-width: 290px;
-					padding-top: 2.26%;
+					padding-top:  50px;
+					padding-right: 20px;
+					padding-left: 20px;
+					width: 337px;
+					height: 465px;
 				}
 			.info {
-				display: block;
-				margin-left: 33.5%;
-				color: #e6ebe7;
+				position: absolute;
 				background-color: #3c673c;
-				height: 100%;
-				overflow: auto;
+				width: 34.54%;
+				max-width: 100%;
+				height: 420px;
+				color: #e6ebe7;
+				overflow: none;
+				padding-bottom: 30px;
+				padding-right: 40px;
+				margin-left: 345px;
 			}
-				.info p{
-				padding-left: 25px;
-				padding-right: 20px;
+					.info p{
+					padding-left: 30px;
+					font-weight: ;
+					letter-spacing: -0.2px;
+					line-height: 2.25em;
+					margin: 0;
 				}
-				.info h3 {
-					padding-left: 25px;
-					padding-bottom: 3.8%;
-					padding-top: 2.26%;
-				}
+					.info h3 {
+						letter-spacing: 1px;
+						padding-left: 30px;
+						padding-top: 26px;
+						padding-bottom: 46px;
+						font-size: 1.3em;
+					}
 		.block_section {
-			height: 34.34%;
-			width: 52.08%;
-			margin: auto;
+			display: block;
+			height: 326px;
+			width: 52.77%;
+			margin-left: 24.11%;
 		}			
 			.blok_1, .blok_2, .blok_3 {
+				position: relative;
+				display: block;
 				width: 33.33%;
 			}
 			.blok_1 {
@@ -114,181 +128,101 @@ html, body {
 			.blok_3 {
 				float: left;
 			}
-				h3.blocks {
-					padding-bottom: 10px;
-					padding-top: 5.28%;
+				.karkas {
+					max-height: 350px;
+				}
+				h2.blocks {
+					font-size: 19pt;
+					letter-spacing: -1px;
+					padding-bottom: 9px;
+					padding-top: 65px;
 					padding-left: 20px; 
 				} 
 				.border {
-					border-bottom: 3px solid #bbbbbb;
+
+					border-bottom: 1px solid #999999;
 				}
 				p.blok_text {
-					height: 50%;
-					padding-left: 20px;
-					padding-right: 20px;
+					display: block;
+					max-height: 230px;
 					padding-top: 10px;
+					padding-left: 22px;
+					padding-right: 10px;
+					letter-spacing: -0.3px;
+					word-spacing: 1.2px;
+					line-height: 1.5em;
+					overflow: auto;
 				}
 				.more {
 					display: block;
-					width: 27%;
-					height: 11.9%;
+					width: 90px;
+					height: 50px;
 					background-color: #2f2f2f;
-					padding-top: 7%;
+					vertical-align: middle;
 					text-align: center;
-					line-height: 11.9%;
-					margin-right: 0;
-					margin-left: auto;
-					margin-top: 14.2%;
+					line-height: 50px;
+					position: absolute;
+					left: 73.5%;
+					top: 360px;
 				}
 					.more a {
 						color: #e6ebe7;
 						text-decoration: none;
 					}
 		.contacts {
+			display: block;
+			position: relative;
 			background-color: #f3df66;
+			height: 195px;
+			top: 132px;
 		}
 			.contacts div {
-				padding-top: 5px;
-				padding-bottom: 5px;
-				width: 290px;
+				width: 335px;
+				
+				padding-top: 7px;
 				margin: auto;
 			}
 				.contacts div p {
-					font-family: Times New Roman;
 					text-align: center;
-					margin-top: 10px;
-					font-size: 10pt;
-					line-height: 0.85em;
+					padding-left: 20px;
+					font-size: 12pt;
+					line-height: 1.55em;
+					letter-spacing: 0.1px;
 				}
-		footer {			
-			height: 3.01%;
+		footer {
+			position: relative;
+			top: 130px;
+			margin-left: 22.96%;
+			height: 40px;
+			padding-left: 12px;
 		}
-			.copyright {
-				display: block;
-				width: 52.08%;
-				margin: auto;
+			.footer_block {
+				padding-left: 13px;
+				width: 1000px;
+
 			}
-			p.copyright_text {
-				font-size: 12pt;
-			}
-			.copyright div {
+			.footer_block div {
 				display: inline-block;
-				margin-right: 7.5%;
+				margin-top: 17px;
+				
 			}
-			.last {
-				margin-right: 0;
+			.copyright_1 {
+				width: 26%;
+				letter-spacing: -0.3px;
+				
 			}
-			
-@media screen and (min-width: 1920px) {
-    .logo img {
-    	padding-top: 10px;
-    }
-    .info p {
-        font-size: 12pt;
-        line-height: 160%;
-    }
-    p.blok_text {
-		font-size: 11pt;
-	}
-	.contacts div p {
-		font-size: 7pt;
-		line-height: 0.6em;
-	}
-	a.menu {
-		padding-top: 50%;
-		font-size: 16pt;
-		line-height: 20px;
-	}
-	p.copyright_text {
-		font-size: 9pt;
-	}
-}
-@media screen and (min-width: 1650px) and (max-width: 1919px) {
-	.logo img {
-    	padding-top: 10px;
-    }
-    .info p {
-        font-size: 11pt;
-        line-height: 140%;
-    }
-     p.blok_text {
-		font-size: 10pt;
-	}
-	.contacts div p {
-		font-size: 7pt;
-		line-height: 0.6em;
-	}
-	a.menu {
-		padding-top: 50%;
-		font-size: 14pt;
-		line-height: 18px;
-	}
-	p.copyright_text {
-		font-size: 8pt;
-	}
-}
-@media screen and (min-width: 1366px) and (max-width: 1649px) {
-	.logo img {
-    	padding-top: 10px;
-    }
-    .info p {
-        font-size: 9pt;
-        line-height: 130%;
-    }
-     p.blok_text {
-		font-size: 9pt;
-	}
-	.contacts div p {
-		font-size: 7pt;
-		line-height: 0.6em;
-	}
-	a.menu {
-	   	padding-top: 50%;
-		font-size: 14pt;
-		line-height: 18px;
-	}
-	p.copyright_text {
-		font-size: 6pt;
-	}
-}
-@media screen and (min-width: 1024px) and (max-width: 1365px) {
-    .info p {
-        font-size: 9pt;
-        line-height: 130%;
-    }
-     p.blok_text {
-		font-size: 8pt;
-	}
-	.contacts div p {
-		font-size: 7pt;
-		line-height: 0.6em;
-	}
-	a.menu {
-		padding-top: 55%;
-		font-size: 12pt;
-		line-height: 16px;
-	}
-	p.copyright_text {
-		font-size: 5pt;
-	}
-}
-@media screen and (min-width: 800px) and (max-width: 1023px) {
-    .info p {
-        font-size: 9pt;
-        line-height: 100%;
-    }
-     p.blok_text {
-		font-size: 6pt;
-	}
-	.contacts div p {
-		font-size: 7pt;
-		line-height: 0.6em;
-	}
-	a.menu {
-		font-size: 10pt;
-		line-height: 14px;
-	}
-	p.copyright_text {
-		font-size: 4pt;
-	}
-}
+			.copyright_1 p {
+				padding-left: -3px;
+			}
+			.copyright_2 p {
+				margin-left: -14px;
+				margin-right: 35px;
+				letter-spacing: -0.2px;
+			}
+			.copyright_4 {
+				width: 28%;
+				margin-left: 21%;
+				text-align: right;
+				padding: 0;
+			}
+
